@@ -1,0 +1,10 @@
+@tailwind components;
+
+@layer components{
+    .footer{
+        @apply bg-bg flex h-16 items-center justify-center w-full text-gray-400
+    }
+    .footer span{
+        @apply text-white ml-5
+    }
+}
