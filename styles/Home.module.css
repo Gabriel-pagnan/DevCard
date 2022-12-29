@@ -1,0 +1,15 @@
+@tailwind components;
+
+
+@layer components{
+  .container{
+    @apply flex w-full  sm:h-auto items-center justify-center flex-wrap p-10 
+  }
+}
+
+.container{
+  background-image:
+    radial-gradient(at 30% 70%, #1729b5 0, transparent 59%),
+    radial-gradient(at 82% 65%, #111927 0, transparent 30%);
+    background-attachment: fixed;
+}

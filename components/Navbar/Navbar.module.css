@@ -1,0 +1,19 @@
+@tailwind components;
+
+@layer components{
+    .nav{
+        @apply flex justify-between p-4 items-center
+    }
+    .nav h3{
+        @apply text-white text-3xl
+    }
+    .nav span{
+        @apply text-bgcard ml-1 italic
+    }
+    .nav ul{
+        @apply flex mr-3 w-96 justify-evenly text-lg
+    }
+    .nav li{
+        @apply mr-3 text-white
+    }
+}

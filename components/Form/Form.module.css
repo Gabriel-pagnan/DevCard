@@ -1,0 +1,44 @@
+@tailwind components;
+
+@layer components {
+  .container_form {
+    @apply flex items-center justify-center w-full
+  }
+
+  .container_form div {
+    @apply relative z-0 mb-6 w-full
+  }
+
+  .container_form input {
+    @apply block py-2.5 px-0 w-96 text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600
+  }
+
+  .container_form label {
+    @apply absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0]
+  }
+
+  .container_form button {
+    @apply text-white hover:bg-blue-800 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800
+  }
+
+  .container_btn{
+    @apply w-full flex justify-between items-center flex-wrap gap-3 
+  }
+  .container_btn span{
+    @apply text-white font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center dark:bg-bgcard
+  }
+
+  .error{
+    @apply text-red-600 ml-2 text-sm
+  }
+}
+
+
+.container_form {
+  width: 500px;
+  height: 500px;
+  backdrop-filter: blur(16px) saturate(100%);
+  -webkit-backdrop-filter: blur(16px) saturate(100%);
+  background-color: rgba(17, 25, 40, 0.329);
+  border-radius: 12px;
+}
