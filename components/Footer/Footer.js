@@ -8,7 +8,7 @@ export default function Footer() {
             <div className='bg-bg flex h-16 items-center justify-center w-full text-gray-400'>
                 <p>Gabriel V. Pagnan</p>
                 <span className='text-white ml-5'>
-                    <Link href='https://github.com/Gabriel-pagnan' target='_blank'>
+                    <Link href='https://github.com/Gabriel-pagnan/DevCard' target='_blank'>
                         <BsGithub size={24} />
                     </Link>
                 </span>
